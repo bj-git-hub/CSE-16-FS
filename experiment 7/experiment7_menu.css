@@ -1,0 +1,41 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    background-color:lightcyan;
+}
+h1{
+    text-align: center
+}
+
+.block-menu a{
+    display: block;
+    background-color:tomato;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    text-decoration: none;
+}
+.inline-menu a{
+    display : inline;
+    background-color: pink ;
+    color: white;
+    padding: 10px;
+    margin:5px;
+    text-decoration: none;
+}
+.inline-block-menu a{
+    display: inline-block;
+    background-color:turquoise;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    text-decoration: none;
+}
+.float-menu a{
+    float:left;
+    background-color:skyblue ;
+    color: white;
+    padding: 10px;
+    margin:5px;
+    text-decoration: none;
+}
