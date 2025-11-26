@@ -1,0 +1,28 @@
+body{
+ font-weight: bold;
+ text-align: center;
+ text-decoration:wavy;
+}
+
+
+.container{
+ display: flex;
+ flex-direction: row;
+ background-color: #fff;
+ padding: 10px;
+ border: 1px solid #ccc;
+}
+.box{
+ justify-content: space-evenly;
+ background-color: #4CAF50;
+ color: black;
+ padding: 20px;
+ text-align: center;
+ border-radius: 5px;
+}
+.box1 {background-color:beige;}
+.box2 {background-color:#4CAF50;}
+.box3 {background-color:aqua;}
+.box4 {background-color:blanchedalmond;}
+.box5 {background-color:azure;}
+
