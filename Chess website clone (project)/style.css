@@ -32,7 +32,7 @@ body {
 
 .board table {
     border-collapse: collapse;
-    margin-right: 50px;
+    margin-right: 10px;
     border: 6px solid #333;
 }
 
@@ -112,7 +112,11 @@ body {
     border-radius: 8px;
     box-shadow: 0 5px 12px rgba(0,0,0,0.12);
 }
-
+.right-panel {
+    float: right;
+    width: 240px;
+    margin-right: 80px;
+}
 
 
 .footer {
