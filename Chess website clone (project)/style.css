@@ -1,21 +1,30 @@
 body {
     margin: 0;
-    font-family: Arial;
-    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+    background-color: #f2f3f5;
 }
+
 
 .header {
-    background-color: #1f1f1f;
+    background-color: #262626;
     color: white;
-    padding: 15px;
-    font-size: 24px;
+    padding: 18px;
+    font-size: 26px;
     text-align: center;
+    font-weight: bold;
 }
 
+
 .main {
-    width: 800px;
-    margin: 40px auto;
+    width: 900px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    overflow: hidden;
 }
+
 
 .board {
     float: left;
@@ -23,53 +32,62 @@ body {
 
 .board table {
     border-collapse: collapse;
-    margin-right: 40px;
+    margin-right: 50px;
+    border: 6px solid #333;
 }
 
 .board td {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 }
 
 .white {
-    background-color: #eeeed2;
+    background-color: #f0d9b5;
 }
 
 .black {
-    background-color: #769656;
+    background-color: #b58863;
 }
+
 
 .menu {
     float: right;
-    width: 200px;
-    background-color: white;
-    padding: 15px;
-    border-radius: 5px;
+    width: 240px;
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.12);
 }
 
 .menu h2 {
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    color: #222;
 }
 
 .menu button {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 12px;
+    margin-bottom: 12px;
     border: none;
-    background-color: #769656;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 .menu button:hover {
-    background-color: #9ccc65;
+    background-color: #43a047;
 }
+
 
 .footer {
     clear: both;
-    background-color: #1f1f1f;
+    background-color: #262626;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 12px;
     margin-top: 40px;
+    font-size: 14px;
 }
